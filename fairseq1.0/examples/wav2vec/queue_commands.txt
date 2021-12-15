@@ -1,0 +1,52 @@
+# wav2vec_small omp-cpc on Librispeech
+./finetune_oneshot-cpc.sh 3 bert_0.0_mask
+./finetune_oneshot-cpc.sh 3 bert_0.1_mask
+./finetune_oneshot-cpc.sh 3 bert_0.2_mask
+./finetune_oneshot-cpc.sh 3 bert_0.3_mask
+./finetune_oneshot-cpc.sh 3 bert_0.4_mask
+./finetune_oneshot-cpc.sh 3 bert_0.5_mask
+./finetune_oneshot-cpc.sh 3 bert_0.6_mask
+./finetune_oneshot-cpc.sh 3 bert_0.7_mask
+./finetune_oneshot-cpc.sh 3 bert_0.8_mask
+./finetune_oneshot-cpc.sh 3 bert_0.9_mask
+./finetune_oneshot-cpc.sh 3 bert_1.0_mask
+
+./finetune_oneshot-cpc.sh 4 bert_0.0_mask
+./finetune_oneshot-cpc.sh 4 bert_0.1_mask
+./finetune_oneshot-cpc.sh 4 bert_0.2_mask
+....
+./finetune_oneshot-cpc.sh 4 bert_1.0_mask
+
+./finetune_oneshot-cpc.sh 5 bert_0.0_mask
+./finetune_oneshot-cpc.sh 5 bert_0.1_mask
+./finetune_oneshot-cpc.sh 5 bert_0.2_mask
+....
+./finetune_oneshot-cpc.sh 5 bert_1.0_mask
+
+# libri960_big omp-cpc on Librispeech
+./finetune_oneshot_large-cpc.sh 3 bert_0.0_mask
+./finetune_oneshot_large-cpc.sh 3 bert_0.1_mask
+./finetune_oneshot_large-cpc.sh 3 bert_0.2_mask
+...
+./finetune_oneshot_large-cpc.sh 3 bert_1.0_mask
+
+./finetune_oneshot_large-cpc.sh 4 bert_0.0_mask
+./finetune_oneshot_large-cpc.sh 4 bert_0.1_mask
+./finetune_oneshot_large-cpc.sh 4 bert_0.2_mask
+...
+./finetune_oneshot_large-cpc.sh 4 bert_1.0_mask
+
+./finetune_oneshot_large-cpc.sh 5 bert_0.0_mask
+./finetune_oneshot_large-cpc.sh 5 bert_0.1_mask
+./finetune_oneshot_large-cpc.sh 5 bert_0.2_mask
+...
+./finetune_oneshot_large-cpc.sh 5 bert_1.0_mask
+
+# finetune permanent
+./finetune_oneshot_permanent.sh 5 bert_0.5_mask
+
+############
+do this on both Satori and SLS
+wav2vec_small cv-omp + LID
+libri960_large cv-omp + LID
+

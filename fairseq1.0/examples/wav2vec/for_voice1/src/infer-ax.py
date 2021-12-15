@@ -1,0 +1,1 @@
+/nobackup/users/clai24/lth-wav2vec/lth-wav2vec/examples/speech_recognition/infer-ax.py
